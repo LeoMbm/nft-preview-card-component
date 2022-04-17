@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+
+    background-color: #0D1A2D;
+    font-family: 'Outfit';
+}
+
+section{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+article{
+    width: 350px;
+    height : 600px;
+    background-color: #15273F;
+    border-radius: 12px;
+    padding: 0px 10px;
+}
+
+article img{
+    width: 320px;
+    height: auto;
+    margin: 25px 15px;
+    border-radius: 13px
+   
+}
+
+
+.nft_info h2{
+    color: white;
+    font-weight: 400;
+}
+
+.nft_info p{
+    color: #839BBD;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.nft_info{
+    margin: -10px 15px;
+}
+
+.nft_price{
+    margin: auto 15px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}       
+
+.nft_price svg{
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+  
+    
+}
+
+.nft_eth{
+    font-weight: bold;
+    color: #2ADEDF;
+}
+
+.nft_deadline{
+    color: #88ABD6;
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid #88ABD6;
+}
